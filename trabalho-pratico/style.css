@@ -23,18 +23,33 @@ header{
 }
 
 .char-interface{
-    width: 150px;
+    width: 170px;
     height: 200px;
     border-style: solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-end;
 }
 
 .itens-interface{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 200px;
     border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.menu-interface{
+    width: 170px;
+    height: 200px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .txt-name{
@@ -51,6 +66,26 @@ header{
     justify-content: flex-end;
 }
 
+.char-imgp{
+    width: 150px;
+    height: 150px;
+    background-image: url('ddztlt8-d34769a4-8943-471e-b28a-d12d7d1d4d6e.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.char-imgy{
+    width: 150px;
+    height: 150px;
+    background-image: url('super-mario-world-yoshi.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .char-img{
     width: 150px;
     height: 150px;
@@ -61,15 +96,92 @@ header{
     justify-content: flex-start;
 }
 
+.char-img1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 22%;
+    top: 3%;
+    background-image: url('fire-mario-super-mario-world.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .char-img2{
     position: relative;
     width: 150px;
     height: 170px;
-    left: -21%;
+    left: -20%;
     top: -10%;
     background-image: url('icegif-1487.gif');
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.iten-div{
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.cogumelo{
+    width: 100px;
+    height: 100px;
+    background-image: url('cogumelo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flordefogo{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 18%;
+    background-image: url('flordefogo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.penacapa{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('pena-capa.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ovoyoshi{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('985-9859648_yoshis-egg-super-mario-world-yoshi-egg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.star{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('star-spinning.gif');
+    background-size: cover;
 }
