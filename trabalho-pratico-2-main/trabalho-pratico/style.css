@@ -1,0 +1,231 @@
+/* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #610909;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+}
+
+header{
+    border-style: solid;
+}
+
+.tela-jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.char-interface{
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('download.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.char-interface2{
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('tumblr_n0tohnbLDO1rrftcdo1_500.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.itens-interface {
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.menu-interface{
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.txt-name{
+    padding: 0px;
+    margin: 0px;
+    margin-top: auto;
+}
+
+.name-input{
+    width: 100%;
+    font-size: 10px;
+    border-style: none;
+    background-color: transparent;
+    justify-content: flex-end;
+}
+
+.char-imgp{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+    background-image: url('ddztlt8-d34769a4-8943-471e-b28a-d12d7d1d4d6e.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.char-imgy{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: url('super-mario-world-yoshi.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.char-img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: -1%;
+    background-image: url('mario-crescido.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.char-img1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 14%;
+    top: 1%;
+    background-image: url('fire-mario-super-mario-world.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.char-img2{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    left: -14%;
+    top: -7%;
+    background-image: url('icegif-1487.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.iten-div {
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cogumelo{
+    width: 100px;
+    height: 100px;
+    background-image: url('cogumelo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flordefogo{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 18%;
+    background-image: url('flordefogo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.penacapa{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('pena-capa.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ovoyoshi{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('985-9859648_yoshis-egg-super-mario-world-yoshi-egg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.star{
+    width: 65px;
+    height: 65px;
+    margin-top: 17%;
+    margin-left: 15%;
+    background-image: url('star-spinning.gif');
+    background-size: cover;
+}
+
+.timer-txt {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: white;
+    margin: 10px 0px;
+}
+
+.btn-iniciar {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #fbd000;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-iniciar:hover {
+    background-color: #fff;
+    color: #610909;
+}
